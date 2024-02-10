@@ -1,0 +1,5 @@
+17:51:24,972 root INFO Creating data directory at D:\Machine Learning\Semantic Segmentation\data
+17:51:24,973 root INFO Dowloading and loading dataset
+17:51:25,13 absl INFO Generating dataset oxford_iiit_pet (D:\Machine Learning\Semantic Segmentation\data\oxford_iiit_pet\3.2.0)
+17:51:25,211 absl INFO Skipping download of http://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz: File cached in D:\Machine Learning\Semantic Segmentation\data\downloads\robots.ox.ac.uk_vgg_pets_annotationsUkJftt5cQklCt2JrQoZW_L15jblwqTffYXUMDx01jpE.tar.gz
+17:51:25,224 absl INFO Downloading http://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz into D:\Machine Learning\Semantic Segmentation\data\downloads\robots.ox.ac.uk_vgg_pets_imageswMR1o1DWRq_DHWToagdXedb7P88RHpceK3WqG77VVwU.tar.gz.tmp.04d8cdded1c64960983e0e223242a23a...
