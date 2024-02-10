@@ -1,0 +1,10 @@
+name: semantic_segmentation
+channels:
+- anaconda
+- conda-forge
+dependecies:
+- python=3.8.0
+- pip:
+  - tensorflow==2.8.0
+  - tensorflow-datasets==4.9.2
+  - matplotlib==3.7.4
