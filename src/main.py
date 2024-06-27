@@ -75,7 +75,7 @@ if __name__=='__main__':
     os.makedirs(save_dir, exist_ok=True)
     model_weights = os.path.join(save_dir, "unet_best.keras")
     print(model_weights)
-    if not os.path.exists(model_weights):
+    if os.path.exists(model_weights):
         logging.info(f"Loading model weights from {model_weights}")
         loaded_model = load_model(model_weights)
         logging.info(" Performing model inference with test set")
